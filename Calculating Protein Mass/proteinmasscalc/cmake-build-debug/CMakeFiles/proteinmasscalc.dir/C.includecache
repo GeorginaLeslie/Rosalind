@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/isotope_check.c
+isotope_check.h
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/isotope_check.h
+stdio.h
+-
+
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/isotope_check.h
+
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/main.c
+stdio.h
+-
+string.h
+-
+isotope_check.h
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/isotope_check.h
+

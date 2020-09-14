@@ -1,0 +1,3 @@
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/cmake-build-debug/CMakeFiles/Finding_a_Motif_in_DNA.dir
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

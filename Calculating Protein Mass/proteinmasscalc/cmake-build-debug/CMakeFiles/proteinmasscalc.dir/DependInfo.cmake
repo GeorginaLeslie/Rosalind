@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/georgie's pc (thicc)/CLionProjects/proteinmasscalc/isotope_check.c" "C:/Users/georgie's pc (thicc)/CLionProjects/proteinmasscalc/cmake-build-debug/CMakeFiles/proteinmasscalc.dir/isotope_check.c.obj"
-  "C:/Users/georgie's pc (thicc)/CLionProjects/proteinmasscalc/main.c" "C:/Users/georgie's pc (thicc)/CLionProjects/proteinmasscalc/cmake-build-debug/CMakeFiles/proteinmasscalc.dir/main.c.obj"
+  "C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/isotope_check.c" "C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/cmake-build-debug/CMakeFiles/proteinmasscalc.dir/isotope_check.c.obj"
+  "C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/main.c" "C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/cmake-build-debug/CMakeFiles/proteinmasscalc.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

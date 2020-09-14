@@ -1,0 +1,8 @@
+//
+// Created by georgie's pc (thicc) on 07/09/2020.
+//
+
+#ifndef FINDING_A_MOTIF_IN_DNA_MOTIF_FINDER_H
+#define FINDING_A_MOTIF_IN_DNA_MOTIF_FINDER_H
+
+#endif //FINDING_A_MOTIF_IN_DNA_MOTIF_FINDER_H

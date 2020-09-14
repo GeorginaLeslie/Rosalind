@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc"
+CMAKE_SOURCE_DIR = "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/proteinmasscalc.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/proteinmasscalc.dir/flags.make
 
 CMakeFiles/proteinmasscalc.dir/main.c.obj: CMakeFiles/proteinmasscalc.dir/flags.make
 CMakeFiles/proteinmasscalc.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/proteinmasscalc.dir/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\proteinmasscalc.dir\main.c.obj   -c "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/proteinmasscalc.dir/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\proteinmasscalc.dir\main.c.obj   -c "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\main.c"
 
 CMakeFiles/proteinmasscalc.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/proteinmasscalc.dir/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\main.c" > CMakeFiles\proteinmasscalc.dir\main.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\main.c" > CMakeFiles\proteinmasscalc.dir\main.c.i
 
 CMakeFiles/proteinmasscalc.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proteinmasscalc.dir/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\main.c" -o CMakeFiles\proteinmasscalc.dir\main.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\main.c" -o CMakeFiles\proteinmasscalc.dir\main.c.s
 
 CMakeFiles/proteinmasscalc.dir/isotope_check.c.obj: CMakeFiles/proteinmasscalc.dir/flags.make
 CMakeFiles/proteinmasscalc.dir/isotope_check.c.obj: ../isotope_check.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/proteinmasscalc.dir/isotope_check.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\proteinmasscalc.dir\isotope_check.c.obj   -c "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\isotope_check.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/proteinmasscalc.dir/isotope_check.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\proteinmasscalc.dir\isotope_check.c.obj   -c "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\isotope_check.c"
 
 CMakeFiles/proteinmasscalc.dir/isotope_check.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/proteinmasscalc.dir/isotope_check.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\isotope_check.c" > CMakeFiles\proteinmasscalc.dir\isotope_check.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\isotope_check.c" > CMakeFiles\proteinmasscalc.dir\isotope_check.c.i
 
 CMakeFiles/proteinmasscalc.dir/isotope_check.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proteinmasscalc.dir/isotope_check.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\isotope_check.c" -o CMakeFiles\proteinmasscalc.dir\isotope_check.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\isotope_check.c" -o CMakeFiles\proteinmasscalc.dir\isotope_check.c.s
 
 # Object files for target proteinmasscalc
 proteinmasscalc_OBJECTS = \
@@ -96,7 +96,7 @@ proteinmasscalc.exe: CMakeFiles/proteinmasscalc.dir/build.make
 proteinmasscalc.exe: CMakeFiles/proteinmasscalc.dir/linklibs.rsp
 proteinmasscalc.exe: CMakeFiles/proteinmasscalc.dir/objects1.rsp
 proteinmasscalc.exe: CMakeFiles/proteinmasscalc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable proteinmasscalc.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable proteinmasscalc.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\proteinmasscalc.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/proteinmasscalc.dir/clean:
 .PHONY : CMakeFiles/proteinmasscalc.dir/clean
 
 CMakeFiles/proteinmasscalc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc" "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc" "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\cmake-build-debug" "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\cmake-build-debug" "C:\Users\georgie's pc (thicc)\CLionProjects\proteinmasscalc\cmake-build-debug\CMakeFiles\proteinmasscalc.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc" "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc" "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug" "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug" "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug\CMakeFiles\proteinmasscalc.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/proteinmasscalc.dir/depend
 

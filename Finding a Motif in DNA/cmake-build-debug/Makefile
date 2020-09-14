@@ -47,24 +47,13 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc"
+CMAKE_SOURCE_DIR = "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Finding a Motif in DNA"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Finding a Motif in DNA\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug\CMakeFiles" "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Finding a Motif in DNA\cmake-build-debug\CMakeFiles" "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Finding a Motif in DNA\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Calculating Protein Mass\proteinmasscalc\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\georgie's pc (thicc)\Documents\GitHub\Rosalind\Finding a Motif in DNA\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,44 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named proteinmasscalc
+# Target rules for targets named Finding_a_Motif_in_DNA
 
 # Build rule for target.
-proteinmasscalc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 proteinmasscalc
-.PHONY : proteinmasscalc
+Finding_a_Motif_in_DNA: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Finding_a_Motif_in_DNA
+.PHONY : Finding_a_Motif_in_DNA
 
 # fast build rule for target.
-proteinmasscalc/fast:
-	$(MAKE) -f CMakeFiles\proteinmasscalc.dir\build.make CMakeFiles/proteinmasscalc.dir/build
-.PHONY : proteinmasscalc/fast
-
-isotope_check.obj: isotope_check.c.obj
-
-.PHONY : isotope_check.obj
-
-# target to build an object file
-isotope_check.c.obj:
-	$(MAKE) -f CMakeFiles\proteinmasscalc.dir\build.make CMakeFiles/proteinmasscalc.dir/isotope_check.c.obj
-.PHONY : isotope_check.c.obj
-
-isotope_check.i: isotope_check.c.i
-
-.PHONY : isotope_check.i
-
-# target to preprocess a source file
-isotope_check.c.i:
-	$(MAKE) -f CMakeFiles\proteinmasscalc.dir\build.make CMakeFiles/proteinmasscalc.dir/isotope_check.c.i
-.PHONY : isotope_check.c.i
-
-isotope_check.s: isotope_check.c.s
-
-.PHONY : isotope_check.s
-
-# target to generate assembly for a file
-isotope_check.c.s:
-	$(MAKE) -f CMakeFiles\proteinmasscalc.dir\build.make CMakeFiles/proteinmasscalc.dir/isotope_check.c.s
-.PHONY : isotope_check.c.s
+Finding_a_Motif_in_DNA/fast:
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/build
+.PHONY : Finding_a_Motif_in_DNA/fast
 
 main.obj: main.c.obj
 
@@ -155,7 +128,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\proteinmasscalc.dir\build.make CMakeFiles/proteinmasscalc.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -164,7 +137,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\proteinmasscalc.dir\build.make CMakeFiles/proteinmasscalc.dir/main.c.i
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -173,8 +146,62 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\proteinmasscalc.dir\build.make CMakeFiles/proteinmasscalc.dir/main.c.s
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/main.c.s
 .PHONY : main.c.s
+
+modulo.obj: modulo.c.obj
+
+.PHONY : modulo.obj
+
+# target to build an object file
+modulo.c.obj:
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/modulo.c.obj
+.PHONY : modulo.c.obj
+
+modulo.i: modulo.c.i
+
+.PHONY : modulo.i
+
+# target to preprocess a source file
+modulo.c.i:
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/modulo.c.i
+.PHONY : modulo.c.i
+
+modulo.s: modulo.c.s
+
+.PHONY : modulo.s
+
+# target to generate assembly for a file
+modulo.c.s:
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/modulo.c.s
+.PHONY : modulo.c.s
+
+motif_finder.obj: motif_finder.c.obj
+
+.PHONY : motif_finder.obj
+
+# target to build an object file
+motif_finder.c.obj:
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/motif_finder.c.obj
+.PHONY : motif_finder.c.obj
+
+motif_finder.i: motif_finder.c.i
+
+.PHONY : motif_finder.i
+
+# target to preprocess a source file
+motif_finder.c.i:
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/motif_finder.c.i
+.PHONY : motif_finder.c.i
+
+motif_finder.s: motif_finder.c.s
+
+.PHONY : motif_finder.s
+
+# target to generate assembly for a file
+motif_finder.c.s:
+	$(MAKE) -f CMakeFiles\Finding_a_Motif_in_DNA.dir\build.make CMakeFiles/Finding_a_Motif_in_DNA.dir/motif_finder.c.s
+.PHONY : motif_finder.c.s
 
 # Help Target
 help:
@@ -182,15 +209,18 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... proteinmasscalc
+	@echo ... Finding_a_Motif_in_DNA
 	@echo ... edit_cache
-	@echo ... isotope_check.obj
-	@echo ... isotope_check.i
-	@echo ... isotope_check.s
+	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... modulo.obj
+	@echo ... modulo.i
+	@echo ... modulo.s
+	@echo ... motif_finder.obj
+	@echo ... motif_finder.i
+	@echo ... motif_finder.s
 .PHONY : help
 
 

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc
+# Install script for directory: C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/proteinmasscalc")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Finding_a_Motif_in_DNA")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Calculating Protein Mass/proteinmasscalc/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

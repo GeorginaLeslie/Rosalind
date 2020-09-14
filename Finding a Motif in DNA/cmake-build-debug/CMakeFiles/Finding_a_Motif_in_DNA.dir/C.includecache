@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/main.c
+stdio.h
+-
+string.h
+-
+modulo.h
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/modulo.h
+
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/modulo.c
+stdio.h
+-
+string.h
+-
+math.h
+-
+modulo.h
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/modulo.h
+
+C:/Users/georgie's pc (thicc)/Documents/GitHub/Rosalind/Finding a Motif in DNA/modulo.h
+
